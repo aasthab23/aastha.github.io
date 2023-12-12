@@ -1,0 +1,47 @@
+font-family: 'Open Sans', sans-serif;
+
+
+table,td{border: 1px solid #000 ;}
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+/* Style for the hamburger menu */
+.menu-button {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 3px 0;
+    margin-left: 20px;
+}
+
+
+.profile-pic img{
+    width: 200px;
+    height: 200px;
+    border: 10px white;
+    border-radius: 100%;
+    margin-top: -45px;
+    margin-left: 665px;
+    box-shadow: 0 5px 10px rgb(173, 173, 173);
+
+  }
+
+  .derek{
+    text-align: center;
+    
+  }
+
+  #about me{
+    text-align: center;
+  }
